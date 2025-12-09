@@ -46,9 +46,10 @@ function normalizeTypes(t) {
 }
 
 function findResource(resources, typePrefix) {
-  for (const r of resources) {
-    const types = normalizeTypes(r["@type"]);
-    if (types.some(t => String(t).toLowerCase().startsWith(typePrefix))) {
+  const prefix = typePrefix.toLowerCase();
+  for (const r of resources ?? []) {
+    const types = normalizeTypes(r["@type"]).map(x => String(x).toLowerCase());
+    if (types.some(t => t.startsWith(prefix))) {
       return r["@id"];
     }
   }
@@ -76,7 +77,9 @@ async function searchPackages(searchBase, query) {
 
     if (page.length < take) break;
     skip += take;
-    // nuget.org enforces pagination limits, so this loop is safe. :contentReference[oaicite:2]{index=2}
+
+    // Guard against runaway loops
+    if (skip > 2000) break;
   }
 
   return all;
@@ -94,7 +97,7 @@ async function main() {
   const cerbiIds = discovered
     .map(p => p.id)
     .filter(Boolean)
-    .filter(id => id.toLowerCase().startsWith("cerbi"))
+    .filter(id => String(id).toLowerCase().startsWith("cerbi"))
     .map(id => String(id));
 
   // 2) Merge overrides, apply blocklist
@@ -104,7 +107,11 @@ async function main() {
   );
 
   // 3) Build per-package snapshots using search results we already have
-  const byId = new Map(discovered.map(p => [String(p.id).toLowerCase(), p]));
+  const byId = new Map(
+    discovered
+      .filter(p => p?.id)
+      .map(p => [String(p.id).toLowerCase(), p])
+  );
 
   const packages = [];
   for (const id of [...merged].sort((a, b) => a.localeCompare(b))) {
@@ -133,4 +140,27 @@ async function main() {
   fs.writeFileSync(dailyPath, JSON.stringify(snapshot, null, 2), "utf8");
 
   // Rolling CSV
-  const csvPath = path.join(dataDir, "nuget_daily_
+  const csvPath = path.join(dataDir, "nuget_daily_totals.csv");
+  const header = "date,id,totalDownloads,latestVersion\n";
+
+  if (!fs.existsSync(csvPath)) {
+    fs.writeFileSync(csvPath, header, "utf8");
+  }
+
+  const rows = packages
+    .filter(p => p.found)
+    .map(p => `${dateStr},${p.id},${p.totalDownloads},${p.latestVersion}\n`)
+    .join("");
+
+  fs.appendFileSync(csvPath, rows, "utf8");
+
+  console.log(`Discovered ${cerbiIds.length} Cerbi packages`);
+  console.log(`Tracking ${packages.length} packages after merge/blocklist`);
+  console.log(`Wrote ${dailyPath}`);
+  console.log(`Appended ${csvPath}`);
+}
+
+main().catch(err => {
+  console.error(err);
+  process.exit(1);
+});
