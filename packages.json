@@ -1,0 +1,13 @@
+[
+  "CerbiStream",
+  "Cerbi.Governance.Core",
+  "Cerbi.Governance.Runtime",
+  "CerbiStream.GovernanceAnalyzer",
+  "Cerbi.MEL.Governance",
+  "Cerbi.Serilog.GovernanceAnalyzer",
+  "Cerbi.Serilog.Governance",
+  "Cerbi.NLog.GovernanceAnalyzer",
+  "Cerbi.NLog.Governance",
+  "Cerbi.Log4Net.GovernanceAnalyzer",
+  "Cerbi.Log4Net.Governance"
+]
