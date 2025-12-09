@@ -1,0 +1,60 @@
+{
+  "dateUtc": "2025-12-09",
+  "packages": [
+    {
+      "id": "CerbiStream",
+      "found": false,
+      "error": "Error: Search failed for CerbiStream: 404"
+    },
+    {
+      "id": "Cerbi.Governance.Core",
+      "found": false,
+      "error": "Error: Search failed for Cerbi.Governance.Core: 404"
+    },
+    {
+      "id": "Cerbi.Governance.Runtime",
+      "found": false,
+      "error": "Error: Search failed for Cerbi.Governance.Runtime: 404"
+    },
+    {
+      "id": "CerbiStream.GovernanceAnalyzer",
+      "found": false,
+      "error": "Error: Search failed for CerbiStream.GovernanceAnalyzer: 404"
+    },
+    {
+      "id": "Cerbi.MEL.Governance",
+      "found": false,
+      "error": "Error: Search failed for Cerbi.MEL.Governance: 404"
+    },
+    {
+      "id": "Cerbi.Serilog.GovernanceAnalyzer",
+      "found": false,
+      "error": "Error: Search failed for Cerbi.Serilog.GovernanceAnalyzer: 404"
+    },
+    {
+      "id": "Cerbi.Serilog.Governance",
+      "found": false,
+      "error": "Error: Search failed for Cerbi.Serilog.Governance: 404"
+    },
+    {
+      "id": "Cerbi.NLog.GovernanceAnalyzer",
+      "found": false,
+      "error": "Error: Search failed for Cerbi.NLog.GovernanceAnalyzer: 404"
+    },
+    {
+      "id": "Cerbi.NLog.Governance",
+      "found": false,
+      "error": "Error: Search failed for Cerbi.NLog.Governance: 404"
+    },
+    {
+      "id": "Cerbi.Log4Net.GovernanceAnalyzer",
+      "found": false,
+      "error": "Error: Search failed for Cerbi.Log4Net.GovernanceAnalyzer: 404"
+    },
+    {
+      "id": "Cerbi.Log4Net.Governance",
+      "found": false,
+      "error": "Error: Search failed for Cerbi.Log4Net.Governance: 404"
+    }
+  ]
+}
