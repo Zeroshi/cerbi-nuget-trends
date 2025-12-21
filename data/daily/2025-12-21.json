@@ -1,0 +1,833 @@
+{
+  "dateUtc": "2025-12-21",
+  "packages": [
+    {
+      "id": "Cerbi.CerbiShield.Contracts",
+      "found": true,
+      "totalDownloads": 232,
+      "latestVersion": "0.1.0",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "downloads": 232
+        }
+      ]
+    },
+    {
+      "id": "Cerbi.CerbiStream.Auth",
+      "found": true,
+      "totalDownloads": 293,
+      "latestVersion": "1.0.2",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "downloads": 208
+        },
+        {
+          "version": "1.0.2",
+          "downloads": 85
+        }
+      ]
+    },
+    {
+      "id": "Cerbi.Governance.Core",
+      "found": true,
+      "totalDownloads": 4340,
+      "latestVersion": "1.0.15",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "downloads": 177
+        },
+        {
+          "version": "1.0.1",
+          "downloads": 487
+        },
+        {
+          "version": "1.0.2",
+          "downloads": 1685
+        },
+        {
+          "version": "1.0.3",
+          "downloads": 119
+        },
+        {
+          "version": "1.0.4",
+          "downloads": 118
+        },
+        {
+          "version": "1.0.5",
+          "downloads": 111
+        },
+        {
+          "version": "1.0.6",
+          "downloads": 178
+        },
+        {
+          "version": "1.0.7",
+          "downloads": 177
+        },
+        {
+          "version": "1.0.8",
+          "downloads": 184
+        },
+        {
+          "version": "1.0.9",
+          "downloads": 171
+        },
+        {
+          "version": "1.0.10",
+          "downloads": 230
+        },
+        {
+          "version": "1.0.11",
+          "downloads": 214
+        },
+        {
+          "version": "1.0.12",
+          "downloads": 176
+        },
+        {
+          "version": "1.0.13",
+          "downloads": 179
+        },
+        {
+          "version": "1.0.15",
+          "downloads": 134
+        }
+      ]
+    },
+    {
+      "id": "Cerbi.Governance.Runtime",
+      "found": true,
+      "totalDownloads": 3072,
+      "latestVersion": "1.1.9",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "downloads": 201
+        },
+        {
+          "version": "1.0.1",
+          "downloads": 192
+        },
+        {
+          "version": "1.1.1",
+          "downloads": 1559
+        },
+        {
+          "version": "1.1.2",
+          "downloads": 102
+        },
+        {
+          "version": "1.1.3",
+          "downloads": 108
+        },
+        {
+          "version": "1.1.4",
+          "downloads": 221
+        },
+        {
+          "version": "1.1.5",
+          "downloads": 172
+        },
+        {
+          "version": "1.1.6",
+          "downloads": 211
+        },
+        {
+          "version": "1.1.7",
+          "downloads": 173
+        },
+        {
+          "version": "1.1.8",
+          "downloads": 133
+        },
+        {
+          "version": "1.1.9",
+          "downloads": 0
+        }
+      ]
+    },
+    {
+      "id": "Cerbi.MEL.Governance",
+      "found": true,
+      "totalDownloads": 7744,
+      "latestVersion": "1.0.46",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "downloads": 185
+        },
+        {
+          "version": "1.0.1",
+          "downloads": 200
+        },
+        {
+          "version": "1.0.2",
+          "downloads": 193
+        },
+        {
+          "version": "1.0.3",
+          "downloads": 205
+        },
+        {
+          "version": "1.0.4",
+          "downloads": 198
+        },
+        {
+          "version": "1.0.5",
+          "downloads": 193
+        },
+        {
+          "version": "1.0.6",
+          "downloads": 197
+        },
+        {
+          "version": "1.0.7",
+          "downloads": 199
+        },
+        {
+          "version": "1.0.8",
+          "downloads": 213
+        },
+        {
+          "version": "1.0.9",
+          "downloads": 206
+        },
+        {
+          "version": "1.0.10",
+          "downloads": 209
+        },
+        {
+          "version": "1.0.11",
+          "downloads": 198
+        },
+        {
+          "version": "1.0.12",
+          "downloads": 208
+        },
+        {
+          "version": "1.0.13",
+          "downloads": 202
+        },
+        {
+          "version": "1.0.14",
+          "downloads": 195
+        },
+        {
+          "version": "1.0.15",
+          "downloads": 208
+        },
+        {
+          "version": "1.0.16",
+          "downloads": 124
+        },
+        {
+          "version": "1.0.17",
+          "downloads": 129
+        },
+        {
+          "version": "1.0.18",
+          "downloads": 105
+        },
+        {
+          "version": "1.0.19",
+          "downloads": 110
+        },
+        {
+          "version": "1.0.20",
+          "downloads": 125
+        },
+        {
+          "version": "1.0.21",
+          "downloads": 128
+        },
+        {
+          "version": "1.0.22",
+          "downloads": 126
+        },
+        {
+          "version": "1.0.23",
+          "downloads": 160
+        },
+        {
+          "version": "1.0.24",
+          "downloads": 148
+        },
+        {
+          "version": "1.0.25",
+          "downloads": 160
+        },
+        {
+          "version": "1.0.26",
+          "downloads": 171
+        },
+        {
+          "version": "1.0.27",
+          "downloads": 159
+        },
+        {
+          "version": "1.0.28",
+          "downloads": 169
+        },
+        {
+          "version": "1.0.29",
+          "downloads": 151
+        },
+        {
+          "version": "1.0.30",
+          "downloads": 157
+        },
+        {
+          "version": "1.0.31",
+          "downloads": 135
+        },
+        {
+          "version": "1.0.32",
+          "downloads": 203
+        },
+        {
+          "version": "1.0.33",
+          "downloads": 188
+        },
+        {
+          "version": "1.0.34",
+          "downloads": 186
+        },
+        {
+          "version": "1.0.35",
+          "downloads": 202
+        },
+        {
+          "version": "1.0.37",
+          "downloads": 204
+        },
+        {
+          "version": "1.0.38",
+          "downloads": 135
+        },
+        {
+          "version": "1.0.39",
+          "downloads": 169
+        },
+        {
+          "version": "1.0.40",
+          "downloads": 175
+        },
+        {
+          "version": "1.0.41",
+          "downloads": 154
+        },
+        {
+          "version": "1.0.42",
+          "downloads": 137
+        },
+        {
+          "version": "1.0.43",
+          "downloads": 201
+        },
+        {
+          "version": "1.0.44",
+          "downloads": 198
+        },
+        {
+          "version": "1.0.45",
+          "downloads": 126
+        },
+        {
+          "version": "1.0.46",
+          "downloads": 0
+        }
+      ]
+    },
+    {
+      "id": "Cerbi.Serilog.Governance",
+      "found": true,
+      "totalDownloads": 129,
+      "latestVersion": "1.3.0",
+      "versions": [
+        {
+          "version": "1.3.0",
+          "downloads": 129
+        }
+      ]
+    },
+    {
+      "id": "Cerbi.Serilog.GovernanceAnalyzer",
+      "found": true,
+      "totalDownloads": 2043,
+      "latestVersion": "1.3.4",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "downloads": 190
+        },
+        {
+          "version": "1.1.2",
+          "downloads": 215
+        },
+        {
+          "version": "1.2.38",
+          "downloads": 122
+        },
+        {
+          "version": "1.2.39",
+          "downloads": 168
+        },
+        {
+          "version": "1.2.40",
+          "downloads": 172
+        },
+        {
+          "version": "1.2.41",
+          "downloads": 166
+        },
+        {
+          "version": "1.2.42",
+          "downloads": 242
+        },
+        {
+          "version": "1.2.43",
+          "downloads": 128
+        },
+        {
+          "version": "1.2.44",
+          "downloads": 0
+        },
+        {
+          "version": "1.3.1",
+          "downloads": 126
+        },
+        {
+          "version": "1.3.2",
+          "downloads": 170
+        },
+        {
+          "version": "1.3.3",
+          "downloads": 172
+        },
+        {
+          "version": "1.3.4",
+          "downloads": 172
+        }
+      ]
+    },
+    {
+      "id": "CerbiSharp.Infrastructure.Autofact",
+      "found": true,
+      "totalDownloads": 179,
+      "latestVersion": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "downloads": 179
+        }
+      ]
+    },
+    {
+      "id": "CerbiStream",
+      "found": true,
+      "totalDownloads": 12734,
+      "latestVersion": "1.1.83",
+      "versions": [
+        {
+          "version": "1.0.1",
+          "downloads": 179
+        },
+        {
+          "version": "1.0.2",
+          "downloads": 184
+        },
+        {
+          "version": "1.0.3",
+          "downloads": 166
+        },
+        {
+          "version": "1.0.4",
+          "downloads": 160
+        },
+        {
+          "version": "1.0.5",
+          "downloads": 179
+        },
+        {
+          "version": "1.0.6",
+          "downloads": 174
+        },
+        {
+          "version": "1.0.7",
+          "downloads": 167
+        },
+        {
+          "version": "1.0.8",
+          "downloads": 99
+        },
+        {
+          "version": "1.0.9",
+          "downloads": 180
+        },
+        {
+          "version": "1.0.10",
+          "downloads": 506
+        },
+        {
+          "version": "1.0.11",
+          "downloads": 489
+        },
+        {
+          "version": "1.0.12",
+          "downloads": 149
+        },
+        {
+          "version": "1.0.13",
+          "downloads": 168
+        },
+        {
+          "version": "1.0.14",
+          "downloads": 138
+        },
+        {
+          "version": "1.0.15",
+          "downloads": 179
+        },
+        {
+          "version": "1.0.16",
+          "downloads": 186
+        },
+        {
+          "version": "1.1.0",
+          "downloads": 220
+        },
+        {
+          "version": "1.1.1",
+          "downloads": 254
+        },
+        {
+          "version": "1.1.2",
+          "downloads": 206
+        },
+        {
+          "version": "1.1.3",
+          "downloads": 196
+        },
+        {
+          "version": "1.1.5",
+          "downloads": 209
+        },
+        {
+          "version": "1.1.6",
+          "downloads": 237
+        },
+        {
+          "version": "1.1.7",
+          "downloads": 194
+        },
+        {
+          "version": "1.1.8",
+          "downloads": 304
+        },
+        {
+          "version": "1.1.9",
+          "downloads": 266
+        },
+        {
+          "version": "1.1.10",
+          "downloads": 273
+        },
+        {
+          "version": "1.1.11",
+          "downloads": 282
+        },
+        {
+          "version": "1.1.12",
+          "downloads": 285
+        },
+        {
+          "version": "1.1.13",
+          "downloads": 283
+        },
+        {
+          "version": "1.1.14",
+          "downloads": 278
+        },
+        {
+          "version": "1.1.15",
+          "downloads": 166
+        },
+        {
+          "version": "1.1.16",
+          "downloads": 203
+        },
+        {
+          "version": "1.1.17",
+          "downloads": 198
+        },
+        {
+          "version": "1.1.18",
+          "downloads": 193
+        },
+        {
+          "version": "1.1.19",
+          "downloads": 125
+        },
+        {
+          "version": "1.1.54",
+          "downloads": 152
+        },
+        {
+          "version": "1.1.55",
+          "downloads": 173
+        },
+        {
+          "version": "1.1.57",
+          "downloads": 186
+        },
+        {
+          "version": "1.1.58",
+          "downloads": 163
+        },
+        {
+          "version": "1.1.59",
+          "downloads": 133
+        },
+        {
+          "version": "1.1.60",
+          "downloads": 121
+        },
+        {
+          "version": "1.1.61",
+          "downloads": 127
+        },
+        {
+          "version": "1.1.62",
+          "downloads": 116
+        },
+        {
+          "version": "1.1.63",
+          "downloads": 123
+        },
+        {
+          "version": "1.1.64",
+          "downloads": 121
+        },
+        {
+          "version": "1.1.65",
+          "downloads": 119
+        },
+        {
+          "version": "1.1.66",
+          "downloads": 110
+        },
+        {
+          "version": "1.1.67",
+          "downloads": 115
+        },
+        {
+          "version": "1.1.69",
+          "downloads": 166
+        },
+        {
+          "version": "1.1.70",
+          "downloads": 182
+        },
+        {
+          "version": "1.1.71",
+          "downloads": 180
+        },
+        {
+          "version": "1.1.72",
+          "downloads": 175
+        },
+        {
+          "version": "1.1.73",
+          "downloads": 169
+        },
+        {
+          "version": "1.1.74",
+          "downloads": 161
+        },
+        {
+          "version": "1.1.75",
+          "downloads": 224
+        },
+        {
+          "version": "1.1.76",
+          "downloads": 224
+        },
+        {
+          "version": "1.1.77",
+          "downloads": 232
+        },
+        {
+          "version": "1.1.78",
+          "downloads": 174
+        },
+        {
+          "version": "1.1.79",
+          "downloads": 645
+        },
+        {
+          "version": "1.1.80",
+          "downloads": 649
+        },
+        {
+          "version": "1.1.82",
+          "downloads": 119
+        },
+        {
+          "version": "1.1.83",
+          "downloads": 0
+        }
+      ]
+    },
+    {
+      "id": "CerbiStream.GovernanceAnalyzer",
+      "found": true,
+      "totalDownloads": 9007,
+      "latestVersion": "1.4.46",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "downloads": 215
+        },
+        {
+          "version": "1.0.1",
+          "downloads": 277
+        },
+        {
+          "version": "1.0.2",
+          "downloads": 198
+        },
+        {
+          "version": "1.0.3",
+          "downloads": 216
+        },
+        {
+          "version": "1.0.4",
+          "downloads": 515
+        },
+        {
+          "version": "1.0.5",
+          "downloads": 173
+        },
+        {
+          "version": "1.1.0",
+          "downloads": 242
+        },
+        {
+          "version": "1.1.4",
+          "downloads": 137
+        },
+        {
+          "version": "1.1.5",
+          "downloads": 218
+        },
+        {
+          "version": "1.1.6",
+          "downloads": 205
+        },
+        {
+          "version": "1.1.7",
+          "downloads": 207
+        },
+        {
+          "version": "1.1.8",
+          "downloads": 212
+        },
+        {
+          "version": "1.1.9",
+          "downloads": 192
+        },
+        {
+          "version": "1.1.10",
+          "downloads": 207
+        },
+        {
+          "version": "1.1.21",
+          "downloads": 329
+        },
+        {
+          "version": "1.1.22",
+          "downloads": 270
+        },
+        {
+          "version": "1.1.23",
+          "downloads": 266
+        },
+        {
+          "version": "1.1.24",
+          "downloads": 293
+        },
+        {
+          "version": "1.1.25",
+          "downloads": 281
+        },
+        {
+          "version": "1.1.27",
+          "downloads": 291
+        },
+        {
+          "version": "1.1.28",
+          "downloads": 270
+        },
+        {
+          "version": "1.1.29",
+          "downloads": 288
+        },
+        {
+          "version": "1.1.30",
+          "downloads": 279
+        },
+        {
+          "version": "1.1.31",
+          "downloads": 179
+        },
+        {
+          "version": "1.1.32",
+          "downloads": 145
+        },
+        {
+          "version": "1.1.33",
+          "downloads": 160
+        },
+        {
+          "version": "1.1.34",
+          "downloads": 213
+        },
+        {
+          "version": "1.1.35",
+          "downloads": 178
+        },
+        {
+          "version": "1.1.36",
+          "downloads": 183
+        },
+        {
+          "version": "1.1.41",
+          "downloads": 401
+        },
+        {
+          "version": "1.1.43",
+          "downloads": 399
+        },
+        {
+          "version": "1.2.1",
+          "downloads": 172
+        },
+        {
+          "version": "1.3.0",
+          "downloads": 398
+        },
+        {
+          "version": "1.4.44",
+          "downloads": 399
+        },
+        {
+          "version": "1.4.46",
+          "downloads": 399
+        }
+      ]
+    }
+  ]
+}

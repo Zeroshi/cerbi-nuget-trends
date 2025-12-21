@@ -106,3 +106,13 @@ date,id,totalDownloads,latestVersion
 2025-12-20,CerbiSharp.Infrastructure.Autofact,179,1.0.0
 2025-12-20,CerbiStream,12611,1.1.82
 2025-12-20,CerbiStream.GovernanceAnalyzer,8989,1.4.46
+2025-12-21,Cerbi.CerbiShield.Contracts,232,0.1.0
+2025-12-21,Cerbi.CerbiStream.Auth,293,1.0.2
+2025-12-21,Cerbi.Governance.Core,4340,1.0.15
+2025-12-21,Cerbi.Governance.Runtime,3072,1.1.9
+2025-12-21,Cerbi.MEL.Governance,7744,1.0.46
+2025-12-21,Cerbi.Serilog.Governance,129,1.3.0
+2025-12-21,Cerbi.Serilog.GovernanceAnalyzer,2043,1.3.4
+2025-12-21,CerbiSharp.Infrastructure.Autofact,179,1.0.0
+2025-12-21,CerbiStream,12734,1.1.83
+2025-12-21,CerbiStream.GovernanceAnalyzer,9007,1.4.46
