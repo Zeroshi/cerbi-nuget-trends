@@ -879,3 +879,16 @@ date,id,totalDownloads,latestVersion
 2026-03-01,CerbiShield.Contracts,303,1.2.1
 2026-03-01,CerbiStream,15946,1.1.102
 2026-03-01,CerbiStream.GovernanceAnalyzer,10327,1.5.49
+2026-03-02,Cerbi.CerbiShield.Contracts,1915,0.2.0
+2026-03-02,Cerbi.CerbiStream.Auth,1034,1.0.2
+2026-03-02,Cerbi.Governance.Core,7362,2.0.22
+2026-03-02,Cerbi.Governance.Runtime,5057,1.1.10
+2026-03-02,Cerbi.MEL.Governance,9557,1.0.53
+2026-03-02,Cerbi.NLog.GovernanceAnalyzer,49,1.1.15
+2026-03-02,Cerbi.Serilog.Governance,160,1.3.0
+2026-03-02,Cerbi.Serilog.GovernanceAnalyzer,3350,1.3.50
+2026-03-02,CerbiSharp.Infrastructure.Autofact,190,1.0.0
+2026-03-02,CerbiShield.Authentication-Shared,1080,1.2.0
+2026-03-02,CerbiShield.Contracts,357,1.2.1
+2026-03-02,CerbiStream,16017,1.1.102
+2026-03-02,CerbiStream.GovernanceAnalyzer,10333,1.5.49
