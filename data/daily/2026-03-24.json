@@ -750,18 +750,6 @@
       ]
     },
     {
-      "id": "CerbiSharp.Infrastructure.Autofact",
-      "found": true,
-      "totalDownloads": 196,
-      "latestVersion": "1.0.0",
-      "versions": [
-        {
-          "version": "1.0.0",
-          "downloads": 196
-        }
-      ]
-    },
-    {
       "id": "CerbiShield.Authentication-Shared",
       "found": true,
       "totalDownloads": 1341,
