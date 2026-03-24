@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-const UA = "cerbi-nuget-trends/1.2";
+const UA = "cerbi-nuget-trends/1.3";
 
 // ---- date ----
 const today = new Date();
@@ -78,7 +78,6 @@ async function searchPackages(searchBase, query) {
     if (page.length < take) break;
     skip += take;
 
-    // Guard against runaway loops
     if (skip > 2000) break;
   }
 
@@ -94,7 +93,6 @@ function buildTrend(dailyDir) {
     .filter(f => f.endsWith(".json"))
     .sort();
 
-  // Sample: last 90 days, pick every 7th for weekly trend
   const recent = files.slice(-90);
   for (let i = 0; i < recent.length; i += 7) {
     try {
@@ -106,7 +104,6 @@ function buildTrend(dailyDir) {
     } catch { /* skip corrupt files */ }
   }
 
-  // Always include the very last file if not already included
   if (files.length > 0) {
     const lastFile = files[files.length - 1];
     const lastDate = lastFile.replace(".json", "");
@@ -145,7 +142,7 @@ async function main() {
       .filter(id => !blocklist.has(id.toLowerCase()))
   );
 
-  // 3) Build per-package snapshots using search results we already have
+  // 3) Build per-package snapshots
   const byId = new Map(
     discovered
       .filter(p => p?.id)
@@ -193,7 +190,7 @@ async function main() {
 
   fs.appendFileSync(csvPath, rows, "utf8");
 
-  // ---- Generate summary.json for website consumption ----
+  // ---- Generate outputs for website consumption ----
   const foundPackages = packages.filter(p => p.found);
   const totalDownloads = foundPackages.reduce((sum, p) => sum + p.totalDownloads, 0);
 
@@ -216,6 +213,7 @@ async function main() {
 
   const trend = buildTrend(dailyDir);
 
+  // Full summary with breakdown
   const summary = {
     asOf: dateStr,
     totalDownloads,
@@ -228,11 +226,22 @@ async function main() {
   const summaryPath = path.join(dataDir, "summary.json");
   fs.writeFileSync(summaryPath, JSON.stringify(summary, null, 2), "utf8");
 
+  // Simple total for website badge/hero — just the number
+  const total = {
+    asOf: dateStr,
+    totalDownloads,
+    packageCount: foundPackages.length
+  };
+
+  const totalPath = path.join(dataDir, "total.json");
+  fs.writeFileSync(totalPath, JSON.stringify(total, null, 2), "utf8");
+
   console.log(`Discovered ${cerbiIds.length} Cerbi packages`);
   console.log(`Tracking ${foundPackages.length} packages after merge/blocklist`);
   console.log(`Total combined downloads: ${totalDownloads.toLocaleString()}`);
   console.log(`Wrote ${dailyPath}`);
   console.log(`Wrote ${summaryPath}`);
+  console.log(`Wrote ${totalPath}`);
   console.log(`Appended ${csvPath}`);
 }
 
