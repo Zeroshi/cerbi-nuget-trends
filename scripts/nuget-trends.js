@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-const UA = "cerbi-nuget-trends/1.1";
+const UA = "cerbi-nuget-trends/1.2";
 
 // ---- date ----
 const today = new Date();
@@ -85,6 +85,45 @@ async function searchPackages(searchBase, query) {
   return all;
 }
 
+// ---- build trend from historical daily files ----
+function buildTrend(dailyDir) {
+  const trend = [];
+  if (!fs.existsSync(dailyDir)) return trend;
+
+  const files = fs.readdirSync(dailyDir)
+    .filter(f => f.endsWith(".json"))
+    .sort();
+
+  // Sample: last 90 days, pick every 7th for weekly trend
+  const recent = files.slice(-90);
+  for (let i = 0; i < recent.length; i += 7) {
+    try {
+      const raw = JSON.parse(fs.readFileSync(path.join(dailyDir, recent[i]), "utf8"));
+      const total = (raw.packages ?? [])
+        .filter(p => p.found && !blocklist.has(String(p.id).toLowerCase()))
+        .reduce((sum, p) => sum + (p.totalDownloads ?? 0), 0);
+      trend.push({ date: raw.dateUtc, totalDownloads: total });
+    } catch { /* skip corrupt files */ }
+  }
+
+  // Always include the very last file if not already included
+  if (files.length > 0) {
+    const lastFile = files[files.length - 1];
+    const lastDate = lastFile.replace(".json", "");
+    if (!trend.some(t => t.date === lastDate)) {
+      try {
+        const raw = JSON.parse(fs.readFileSync(path.join(dailyDir, lastFile), "utf8"));
+        const total = (raw.packages ?? [])
+          .filter(p => p.found && !blocklist.has(String(p.id).toLowerCase()))
+          .reduce((sum, p) => sum + (p.totalDownloads ?? 0), 0);
+        trend.push({ date: raw.dateUtc, totalDownloads: total });
+      } catch { /* skip */ }
+    }
+  }
+
+  return trend;
+}
+
 async function main() {
   const index = await getServiceIndex();
 
@@ -154,9 +193,46 @@ async function main() {
 
   fs.appendFileSync(csvPath, rows, "utf8");
 
+  // ---- Generate summary.json for website consumption ----
+  const foundPackages = packages.filter(p => p.found);
+  const totalDownloads = foundPackages.reduce((sum, p) => sum + p.totalDownloads, 0);
+
+  const topPackages = [...foundPackages]
+    .sort((a, b) => b.totalDownloads - a.totalDownloads)
+    .slice(0, 10)
+    .map(p => ({
+      id: p.id,
+      totalDownloads: p.totalDownloads,
+      latestVersion: p.latestVersion
+    }));
+
+  const allPackages = [...foundPackages]
+    .sort((a, b) => b.totalDownloads - a.totalDownloads)
+    .map(p => ({
+      id: p.id,
+      totalDownloads: p.totalDownloads,
+      latestVersion: p.latestVersion
+    }));
+
+  const trend = buildTrend(dailyDir);
+
+  const summary = {
+    asOf: dateStr,
+    totalDownloads,
+    packageCount: foundPackages.length,
+    topPackages,
+    allPackages,
+    weeklyTrend: trend
+  };
+
+  const summaryPath = path.join(dataDir, "summary.json");
+  fs.writeFileSync(summaryPath, JSON.stringify(summary, null, 2), "utf8");
+
   console.log(`Discovered ${cerbiIds.length} Cerbi packages`);
-  console.log(`Tracking ${packages.length} packages after merge/blocklist`);
+  console.log(`Tracking ${foundPackages.length} packages after merge/blocklist`);
+  console.log(`Total combined downloads: ${totalDownloads.toLocaleString()}`);
   console.log(`Wrote ${dailyPath}`);
+  console.log(`Wrote ${summaryPath}`);
   console.log(`Appended ${csvPath}`);
 }
 
