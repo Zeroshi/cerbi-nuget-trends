@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-04-09",
+  "asOf": "2026-04-10",
   "totalDownloads": 65367,
   "packageCount": 29,
   "topPackages": [
@@ -203,59 +203,59 @@
   ],
   "weeklyTrend": [
     {
-      "date": "2026-01-10",
-      "totalDownloads": 45534
+      "date": "2026-01-11",
+      "totalDownloads": 45632
     },
     {
-      "date": "2026-01-17",
-      "totalDownloads": 46173
+      "date": "2026-01-18",
+      "totalDownloads": 46229
     },
     {
-      "date": "2026-01-24",
-      "totalDownloads": 47636
+      "date": "2026-01-25",
+      "totalDownloads": 47658
     },
     {
-      "date": "2026-01-31",
-      "totalDownloads": 49412
+      "date": "2026-02-01",
+      "totalDownloads": 49839
     },
     {
-      "date": "2026-02-07",
-      "totalDownloads": 51851
+      "date": "2026-02-08",
+      "totalDownloads": 51906
     },
     {
-      "date": "2026-02-14",
-      "totalDownloads": 53093
+      "date": "2026-02-15",
+      "totalDownloads": 53300
     },
     {
-      "date": "2026-02-21",
-      "totalDownloads": 54032
+      "date": "2026-02-22",
+      "totalDownloads": 54152
     },
     {
-      "date": "2026-02-28",
-      "totalDownloads": 55533
+      "date": "2026-03-01",
+      "totalDownloads": 55728
     },
     {
-      "date": "2026-03-07",
-      "totalDownloads": 58404
+      "date": "2026-03-08",
+      "totalDownloads": 58463
     },
     {
-      "date": "2026-03-14",
-      "totalDownloads": 59236
+      "date": "2026-03-15",
+      "totalDownloads": 59284
     },
     {
-      "date": "2026-03-21",
-      "totalDownloads": 61292
+      "date": "2026-03-22",
+      "totalDownloads": 61665
     },
     {
-      "date": "2026-03-28",
-      "totalDownloads": 63129
+      "date": "2026-03-29",
+      "totalDownloads": 63196
     },
     {
-      "date": "2026-04-04",
-      "totalDownloads": 64773
+      "date": "2026-04-05",
+      "totalDownloads": 64948
     },
     {
-      "date": "2026-04-09",
+      "date": "2026-04-10",
       "totalDownloads": 65367
     }
   ]
