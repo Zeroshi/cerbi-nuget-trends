@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-04-13",
+  "asOf": "2026-04-14",
   "totalDownloads": 65367,
   "packageCount": 29,
   "topPackages": [
@@ -21,7 +21,7 @@
     {
       "id": "Cerbi.Governance.Core",
       "totalDownloads": 9040,
-      "latestVersion": "2.2.33"
+      "latestVersion": "2.2.34"
     },
     {
       "id": "Cerbi.Governance.Runtime",
@@ -73,7 +73,7 @@
     {
       "id": "Cerbi.Governance.Core",
       "totalDownloads": 9040,
-      "latestVersion": "2.2.33"
+      "latestVersion": "2.2.34"
     },
     {
       "id": "Cerbi.Governance.Runtime",
@@ -113,7 +113,7 @@
     {
       "id": "Cerbi.NLog.GovernanceAnalyzer",
       "totalDownloads": 342,
-      "latestVersion": "1.1.25"
+      "latestVersion": "1.1.26"
     },
     {
       "id": "Cerbi.AspNetCore.Governance",
@@ -203,59 +203,59 @@
   ],
   "weeklyTrend": [
     {
-      "date": "2026-01-14",
-      "totalDownloads": 45796
+      "date": "2026-01-15",
+      "totalDownloads": 46050
     },
     {
-      "date": "2026-01-21",
-      "totalDownloads": 47060
+      "date": "2026-01-22",
+      "totalDownloads": 47067
     },
     {
-      "date": "2026-01-28",
+      "date": "2026-01-29",
       "totalDownloads": 47822
     },
     {
-      "date": "2026-02-04",
-      "totalDownloads": 50815
+      "date": "2026-02-05",
+      "totalDownloads": 51413
     },
     {
-      "date": "2026-02-11",
-      "totalDownloads": 52197
+      "date": "2026-02-12",
+      "totalDownloads": 52745
     },
     {
-      "date": "2026-02-18",
-      "totalDownloads": 53640
+      "date": "2026-02-19",
+      "totalDownloads": 53770
     },
     {
-      "date": "2026-02-25",
-      "totalDownloads": 54540
+      "date": "2026-02-26",
+      "totalDownloads": 54678
     },
     {
-      "date": "2026-03-04",
-      "totalDownloads": 57311
+      "date": "2026-03-05",
+      "totalDownloads": 57526
     },
     {
-      "date": "2026-03-11",
-      "totalDownloads": 58842
+      "date": "2026-03-12",
+      "totalDownloads": 58869
     },
     {
-      "date": "2026-03-18",
-      "totalDownloads": 60095
+      "date": "2026-03-19",
+      "totalDownloads": 60561
     },
     {
-      "date": "2026-03-25",
-      "totalDownloads": 62344
+      "date": "2026-03-26",
+      "totalDownloads": 62705
     },
     {
-      "date": "2026-04-01",
-      "totalDownloads": 63507
+      "date": "2026-04-02",
+      "totalDownloads": 63572
     },
     {
-      "date": "2026-04-08",
+      "date": "2026-04-09",
       "totalDownloads": 65367
     },
     {
-      "date": "2026-04-13",
+      "date": "2026-04-14",
       "totalDownloads": 65367
     }
   ]
