@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-06-25",
+  "asOf": "2026-06-26",
   "totalDownloads": 78376,
   "packageCount": 30,
   "topPackages": [
@@ -208,59 +208,59 @@
   ],
   "weeklyTrend": [
     {
-      "date": "2026-03-27",
-      "totalDownloads": 62957
+      "date": "2026-03-28",
+      "totalDownloads": 63129
     },
     {
-      "date": "2026-04-03",
-      "totalDownloads": 63802
+      "date": "2026-04-04",
+      "totalDownloads": 64773
     },
     {
-      "date": "2026-04-10",
+      "date": "2026-04-11",
       "totalDownloads": 65367
     },
     {
-      "date": "2026-04-17",
-      "totalDownloads": 65367
+      "date": "2026-04-18",
+      "totalDownloads": 68542
     },
     {
-      "date": "2026-04-24",
-      "totalDownloads": 69341
+      "date": "2026-04-25",
+      "totalDownloads": 69401
     },
     {
-      "date": "2026-05-01",
-      "totalDownloads": 70537
+      "date": "2026-05-02",
+      "totalDownloads": 71061
     },
     {
-      "date": "2026-05-09",
-      "totalDownloads": 75288
+      "date": "2026-05-10",
+      "totalDownloads": 75339
     },
     {
-      "date": "2026-05-16",
-      "totalDownloads": 76086
+      "date": "2026-05-17",
+      "totalDownloads": 76129
     },
     {
-      "date": "2026-05-23",
-      "totalDownloads": 76512
+      "date": "2026-05-24",
+      "totalDownloads": 76568
     },
     {
-      "date": "2026-05-30",
-      "totalDownloads": 77259
+      "date": "2026-05-31",
+      "totalDownloads": 77291
     },
     {
-      "date": "2026-06-06",
-      "totalDownloads": 77658
+      "date": "2026-06-07",
+      "totalDownloads": 77752
     },
     {
-      "date": "2026-06-13",
-      "totalDownloads": 78137
+      "date": "2026-06-14",
+      "totalDownloads": 78149
     },
     {
-      "date": "2026-06-20",
-      "totalDownloads": 78274
+      "date": "2026-06-21",
+      "totalDownloads": 78299
     },
     {
-      "date": "2026-06-25",
+      "date": "2026-06-26",
       "totalDownloads": 78376
     }
   ]
