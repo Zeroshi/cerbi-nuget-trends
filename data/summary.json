@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-08-18",
-  "totalDownloads": 94340,
+  "asOf": "2026-08-19",
+  "totalDownloads": 94356,
   "packageCount": 30,
   "topPackages": [
     {
@@ -10,7 +10,7 @@
     },
     {
       "id": "Cerbi.Governance.Core",
-      "totalDownloads": 16173,
+      "totalDownloads": 16177,
       "latestVersion": "2.2.37"
     },
     {
@@ -25,12 +25,12 @@
     },
     {
       "id": "Cerbi.Governance.Runtime",
-      "totalDownloads": 10612,
+      "totalDownloads": 10618,
       "latestVersion": "2.0.43"
     },
     {
       "id": "CerbiShield.Contracts",
-      "totalDownloads": 5152,
+      "totalDownloads": 5158,
       "latestVersion": "1.3.1"
     },
     {
@@ -62,7 +62,7 @@
     },
     {
       "id": "Cerbi.Governance.Core",
-      "totalDownloads": 16173,
+      "totalDownloads": 16177,
       "latestVersion": "2.2.37"
     },
     {
@@ -77,12 +77,12 @@
     },
     {
       "id": "Cerbi.Governance.Runtime",
-      "totalDownloads": 10612,
+      "totalDownloads": 10618,
       "latestVersion": "2.0.43"
     },
     {
       "id": "CerbiShield.Contracts",
-      "totalDownloads": 5152,
+      "totalDownloads": 5158,
       "latestVersion": "1.3.1"
     },
     {
@@ -208,60 +208,60 @@
   ],
   "weeklyTrend": [
     {
-      "date": "2026-05-21",
-      "totalDownloads": 76413
+      "date": "2026-05-22",
+      "totalDownloads": 76475
     },
     {
-      "date": "2026-05-28",
-      "totalDownloads": 77201
+      "date": "2026-05-29",
+      "totalDownloads": 77238
     },
     {
-      "date": "2026-06-04",
-      "totalDownloads": 77489
+      "date": "2026-06-05",
+      "totalDownloads": 77504
     },
     {
-      "date": "2026-06-11",
-      "totalDownloads": 78088
+      "date": "2026-06-12",
+      "totalDownloads": 78124
     },
     {
-      "date": "2026-06-18",
-      "totalDownloads": 78232
+      "date": "2026-06-19",
+      "totalDownloads": 78249
     },
     {
-      "date": "2026-06-25",
+      "date": "2026-06-26",
       "totalDownloads": 78376
     },
     {
-      "date": "2026-07-02",
-      "totalDownloads": 79557
+      "date": "2026-07-03",
+      "totalDownloads": 79631
     },
     {
-      "date": "2026-07-09",
-      "totalDownloads": 80787
+      "date": "2026-07-10",
+      "totalDownloads": 80867
     },
     {
-      "date": "2026-07-16",
-      "totalDownloads": 82463
+      "date": "2026-07-17",
+      "totalDownloads": 82779
     },
     {
-      "date": "2026-07-23",
-      "totalDownloads": 83456
+      "date": "2026-07-24",
+      "totalDownloads": 83494
     },
     {
-      "date": "2026-07-30",
-      "totalDownloads": 84063
+      "date": "2026-07-31",
+      "totalDownloads": 84091
     },
     {
-      "date": "2026-08-06",
-      "totalDownloads": 91659
+      "date": "2026-08-07",
+      "totalDownloads": 92095
     },
     {
-      "date": "2026-08-13",
-      "totalDownloads": 92814
+      "date": "2026-08-14",
+      "totalDownloads": 92842
     },
     {
-      "date": "2026-08-18",
-      "totalDownloads": 94340
+      "date": "2026-08-19",
+      "totalDownloads": 94356
     }
   ]
 }
